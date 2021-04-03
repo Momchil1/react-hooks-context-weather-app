@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(238, 237, 237, 0.33);
+    color: rgb(105, 104, 104);
+    font-family: sans-serif
+}
+
+.slick-arrow {
+    z-index: 1;
+}
+.slick-container {
+    height: 55vh;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.daily-data {
+    width: 20%;
+}

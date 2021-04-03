@@ -1,0 +1,38 @@
+.modal-background {
+    background: white;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 3rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.modal-close {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.modal-content {
+    border: none;
+}
+.modal-content .modal-header {
+    padding: 0 1rem;
+    justify-content: flex-end;
+    border: none;
+    position: relative;
+    z-index: 3;
+}
+.modal-body {
+    z-index: 3;
+}
